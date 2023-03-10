@@ -29,7 +29,7 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Spencer Sharp</title>
+        <title>Uses - Emerson Day</title>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."
@@ -41,21 +41,18 @@ export default function Uses() {
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I’ve never heard the fans turn on a
-              single time, even under the incredibly heavy loads I put it
-              through with our various launch simulations.
+            <Tool title="13” MacBook Pro, Intel i7, 16GB RAM (2013)">
+              I have had this laptop for 10 years and it works great. The truth
+              is, no one needs a fancy computer for web dev.
             </Tool>
             <Tool title="Apple Pro Display XDR (Standard Glass)">
               The only display on the market if you want something HiDPI and
               bigger than 27”. When you’re working at planetary scale, every
               pixel you can get counts.
             </Tool>
-            <Tool title="IBM Model M SSK Industrial Keyboard">
-              They don’t make keyboards the way they used to. I buy these any
-              time I see them go up for sale and keep them in storage in case I
-              need parts or need to retire my main.
+            <Tool title="Microsoft Sculpt Ergonomic Keyboard">
+              A decent keyboard with a split left and right design. I find that
+              split keyboards greatly reduce the amount of hand and wrist pain.
             </Tool>
             <Tool title="Apple Magic Trackpad">
               Something about all the gestures makes me feel like a wizard with
@@ -68,10 +65,9 @@ export default function Uses() {
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
-              I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
-              editor ever made.
+            <Tool title="Visual Studio Code">
+              Pretty much the industry standard IDE. I find the Stripe and
+              Docker extensions to be particularly useful.
             </Tool>
             <Tool title="iTerm2">
               I’m honestly not even sure what features I get with this that
