@@ -68,7 +68,7 @@ export default function About() {
               <p>
                 Hi, my name is Emerson, and I am a full-stack web developer
                 based in Los Angeles. I have a deep passion for building modern
-                web applications using React, Node, and Typescript. I also have
+                web applications using React, Node, and TypeScript. I also have
                 extensive experience with Next.js and Tailwind, two popular
                 frameworks in the web development community.
               </p>
