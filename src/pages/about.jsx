@@ -66,30 +66,38 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                Hi, my name is Emerson, and I am a full-stack web developer
+                based in Los Angeles. I have a deep passion for building modern
+                web applications using React, Node, and Typescript. I also have
+                extensive experience with Next.js and Tailwind, two popular
+                frameworks in the web development community.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                In addition to my technical skills, I have a Certificate in
+                Professional Coding from MIT and a Bachelor&apos;s degree from
+                Penn State University. These credentials, combined with my love
+                for technology and computers, have led me to pursue a career in
+                software engineering.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+                When I&apos;m not coding, I love to explore the outdoors. I am
+                an avid hiker and traveler, and I have visited dozens national
+                parks. I also love to stay active and enjoy surfing and
+                snowboarding in my free time.
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+                Before pursuing software engineering, I had a successful career
+                as a recording and mixing engineer in Hollywood. This background
+                has given me a unique perspective on problem-solving,
+                innovation, and collaboration, which I bring to every project.
+              </p>
+              <p>
+                Overall, I believe that my creativity and technical expertise
+                make me a valuable asset to any web development team. If
+                you&apos;re looking for a professional web developer with a
+                passion for building cutting-edge applications, feel free to get
+                in touch with me. I would love to learn more about your project
+                and see how I can help.
               </p>
             </div>
           </div>
