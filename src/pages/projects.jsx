@@ -3,47 +3,61 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoMic from '@/images/logos/icon-microphone.svg'
+import logoPhone from '@/images/logos/icon-phone-ring.svg'
+import logoHeadphones from '@/images/logos/icon-headphones.svg'
+import logoWifi from '@/images/logos/icon-wifi.svg'
+import logoStore from '@/images/logos/icon-store.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: "This One's On Us",
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'A modern, accessible, and responsive podcast website. Created using the RSS feed with Next.js and Tailwind.',
+    link: {
+      href: 'http://thisonesonus.vercel.app',
+      label: "this-one's-on-us-podcast",
+    },
+    logo: logoMic,
   },
   {
-    name: 'Animaginary',
+    name: 'Restaurant Ordering',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'A full stack web application for ordering food. Complete with authentication, content management, and Stripe checkout.',
+    link: {
+      href: 'https://emerson-day-restaurants-app.vercel.app/',
+      label: 'restaurants-app',
+    },
+    logo: logoStore,
   },
   {
-    name: 'HelioStream',
+    name: 'Playlist Generator',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'Generate Spotify playlists by entering a year and genre. Created with OAuth, Firebase and React.',
+    link: {
+      href: 'https://github.com/Scott-Coates-Org/solo-project-spotify-playlist-maker-emday4prez',
+      label: 'spotify-playlist-maker',
+    },
+    logo: logoHeadphones,
   },
   {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+    name: 'HomeSmart Landing Page',
+    description: 'A Tailwind landing page for a Smart Home phone application.',
+    link: {
+      href: 'https://smart-home-site-landing-page.netlify.app/',
+      label: 'smart-home-site-landing-page',
+    },
+    logo: logoWifi,
   },
   {
-    name: 'OpenShuttle',
+    name: 'TeleFrieden',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'A telecommunications blog created with Gatsby, GraphQL, and Styled-Components.',
+    link: {
+      href: 'https://telefrieden.netlify.app/',
+      label: 'telefrieden.netlify.app',
+    },
+    logo: logoPhone,
   },
 ]
 
@@ -62,14 +76,11 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
-        <meta
-          name="description"
-          content="Things I’ve made trying to put my dent in the universe."
-        />
+        <title>Projects - Emerson Day</title>
+        <meta name="description" content="Things I’ve made." />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
+        title="Things I’ve made."
         intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
       >
         <ul
