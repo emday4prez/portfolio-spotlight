@@ -128,7 +128,7 @@ export default function About() {
                 icon={LinkedInIcon}
                 className="mt-4"
               >
-                Follow on LinkedIn
+                Connect on LinkedIn
               </SocialLink>
               <SocialLink
                 href="mailto:emerson.day@gmail.com"
