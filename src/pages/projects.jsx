@@ -52,7 +52,7 @@ const projects = [
   {
     name: 'TeleFrieden',
     description:
-      'A telecommunications blog created with Gatsby, GraphQL, and Styled-Components.',
+      'A telecommunications blog created with Gatsby, GraphQL, and styled-components.',
     link: {
       href: 'https://telefrieden.netlify.app/',
       label: 'telefrieden.netlify.app',
