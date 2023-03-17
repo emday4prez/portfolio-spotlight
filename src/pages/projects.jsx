@@ -8,6 +8,7 @@ import logoPhone from '@/images/logos/icon-phone-ring.svg'
 import logoHeadphones from '@/images/logos/icon-headphones.svg'
 import logoWifi from '@/images/logos/icon-wifi.svg'
 import logoStore from '@/images/logos/icon-store.svg'
+import logoBank from '@/images/logos/icon-library.svg'
 
 const projects = [
   {
@@ -58,6 +59,16 @@ const projects = [
       label: 'telefrieden.netlify.app',
     },
     logo: logoPhone,
+  },
+  {
+    name: 'FeBanc',
+    description:
+      'Frontend banking application. Implemented using React, Bootstrap, Context, and hosted on AWS.',
+    link: {
+      href: 'http://emerson-day-bankingapp.s3-website-us-west-1.amazonaws.com/',
+      label: 'frontend-bank',
+    },
+    logo: logoBank,
   },
 ]
 
