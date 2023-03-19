@@ -9,8 +9,19 @@ import logoHeadphones from '@/images/logos/icon-headphones.svg'
 import logoWifi from '@/images/logos/icon-wifi.svg'
 import logoStore from '@/images/logos/icon-store.svg'
 import logoBank from '@/images/logos/icon-library.svg'
+import logoGithub from '@/images/logos/github.svg'
 
 const projects = [
+  {
+    name: 'TypeScript Node Package Template',
+    description:
+      'A quickstart-friendly TypeScript template with comprehensive formatting, linting, releases, testing, and other great tooling built-in.',
+    link: {
+      href: 'https://github.com/JoshuaKGoldberg/template-typescript-node-package',
+      label: 'template-typescript-node-package',
+    },
+    logo: logoGithub,
+  },
   {
     name: "This One's On Us",
     description:
