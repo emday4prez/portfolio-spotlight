@@ -56,7 +56,7 @@ export default function About() {
                 src={portraitImage}
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
-                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+                className="aspect-square  rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
             </div>
           </div>
@@ -66,24 +66,24 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Hi, my name is Emerson, and I am a full-stack web developer
-                based in Los Angeles. I love building modern web applications
-                using React, Node, and TypeScript. I also have extensive
-                experience with Next.js and Tailwind, two popular frameworks in
-                the web development community.
+                I am a full-stack web developer based in Los Angeles. I love
+                building modern web applications using React, Node, and
+                TypeScript. I also have extensive experience with Next.js and
+                Tailwind, two popular frameworks in the web development
+                community.
               </p>
               <p>
                 In addition to my technical skills, I have a Certificate in
-                Professional Coding from MIT and a Bachelor&apos;s degree from
-                Penn State University. These credentials, combined with my love
-                for technology and computers, have led me to pursue a career in
-                software engineering.
+                Professional Coding from M.I.T. and a Bachelor&apos;s degree
+                from Penn State University. These credentials, combined with my
+                love for technology and computers, have led me to pursue a
+                career in software engineering.
               </p>
               <p>
-                When I&apos;m not coding, I love to explore the outdoors. I am
-                an avid hiker and traveler, and I have visited dozens national
-                parks. I try to stay active and enjoy surfing and snowboarding
-                in my free time.
+                When I&apos;m not programming, I love to explore the outdoors. I
+                am an avid hiker and traveler, and I have visited dozens
+                national parks. I try to stay active and enjoy surfing and
+                snowboarding in my free time.
               </p>
               <p>
                 Before pursuing software engineering, I had a successful career
@@ -92,12 +92,12 @@ export default function About() {
                 innovation, and collaboration, which I bring to every project.
               </p>
               <p>
-                Overall, I believe that my creativity and technical expertise
-                make me a valuable asset to any web development team. If
-                you&apos;re looking for a professional web developer with a
-                passion for building cutting-edge applications, feel free to get
-                in touch with me. I would love to learn more about your project
-                and see how I can help.
+                My creativity and technical expertise make me a valuable asset
+                to any web development team. If you&apos;re looking for a
+                professional web developer with a passion for building
+                cutting-edge applications, feel free to get in touch with me. I
+                would love to learn more about your project and see how I can
+                help.
               </p>
             </div>
           </div>
