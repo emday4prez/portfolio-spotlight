@@ -73,8 +73,8 @@ export default function About() {
                 community.
               </p>
               <p>
-                In addition to my technical skills, I have a Certificate in
-                Professional Coding from M.I.T. and a Bachelor&apos;s degree
+                In addition to my technical skills, I have a certificate in
+                professional coding from M.I.T. and a bachelor&apos;s degree
                 from Penn State University. These credentials, combined with my
                 love for technology and computers, have led me to pursue a
                 career in software engineering.
