@@ -29,10 +29,10 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Emerson Day</title>
+        <title>Tools - Emerson Day</title>
         <meta
           name="description"
-          content="Software I use, gadgets I love, and other things I recommend."
+          content="Tools I use and other things I recommend."
         />
       </Head>
       <SimpleLayout

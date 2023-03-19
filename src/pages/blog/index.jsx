@@ -36,7 +36,7 @@ export default function ArticlesIndex({ articles }) {
   return (
     <>
       <Head>
-        <title>Articles - Emerson Day</title>
+        <title>Blog - Emerson Day</title>
         <meta name="description" content="What's on my mind." />
       </Head>
       <SimpleLayout
