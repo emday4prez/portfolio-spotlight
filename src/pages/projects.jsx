@@ -103,7 +103,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Things I’ve made."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Each project showcases my skills and creativity, and highlights the technologies and techniques I used to build them. This page will give you a good sense of my capabilities and the types of projects I'm passionate about."
       >
         <ul
           role="list"
