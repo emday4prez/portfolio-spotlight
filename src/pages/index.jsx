@@ -137,7 +137,7 @@ function Resume() {
   let resume = [
     {
       company: 'Upwork',
-      title: 'Web Developer',
+      title: 'Freelance Web Developer',
       logo: logoLaptop,
       start: '2019',
       end: {
@@ -201,7 +201,12 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="/Emerson_Day_Resume.pdf"
+        variant="secondary"
+        className="group mt-6 w-full"
+        download
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -210,7 +215,7 @@ function Resume() {
 }
 
 function Photos() {
-  let rotations = ['rotate-2', '-rotate-2', 'rotate-1', 'rotate-2', '-rotate-2']
+  let rotations = ['rotate-2', '-rotate-2', 'rotate-0', 'rotate-2', '-rotate-2']
 
   return (
     <div className="mt-16 sm:mt-20">
