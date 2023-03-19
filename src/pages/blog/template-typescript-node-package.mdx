@@ -1,0 +1,27 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Emerson Day',
+  date: '2023-03-19',
+  title: 'Contributing to Template-Typescript-Node-Package',
+  description:
+    'I recently had the opportunity to contribute to an open source project, here is what I learned.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+I am always looking for ways to improve my coding skills, I was excited to come across Josh Goldberg's open source project, [template-typescript-node-package](https://github.com/JoshuaKGoldberg/template-typescript-node-package). This template features comprehensive formatting, linting, releases, testing, and other great tooling built-in, making it the perfect starting point for any TypeScript project.
+
+Josh authored the O'Reilly book [Learning TypeScript](http://www.https://www.learningtypescript.com/) and is a maintainer of numerous open source projects, as well as a contributor to the main TypeScript repo - I knew that contributing to template-typescript-node-package would be a great way to improve my own skills and learn from a developer I look up to.
+
+My contribution to this project involved switching from the outdated Enquirer package to the new, modern Clack. These packages are used to prompt users when creating a new project based on this template. It was a relatively small contribution, but I learned a lot from the experience.
+
+One of the biggest things I learned was how to handle merge conflicts. As I had forked the original project and was working on my own version, I needed to constantly fetch the main repo to avoid conflicts. For those who may be unfamiliar with the term, a merge conflict occurs when two different versions of the same file are edited and committed to different branches. When trying to merge the branches together, Git doesn't know which version of the file to use, and therefore asks the user to resolve the conflict manually. They are infamous for being one of the most frustrating parts of using Git.
+
+Typically, the way to solve a merge conflict is to open the file in question and look for the parts that are different between the two versions. These parts will be surrounded by markers like <<<<<<< HEAD and >>>>>>> [branch-name]. The user must then manually decide which version of the code to keep and which to discard. Once the conflicts have been resolved, the user can save the file and commit the changes.
+
+While it may seem intimidating at first, learning how to handle merge conflicts is an essential skill for any developer. By contributing to this project, I was able to put this skill into practice and improve my own abilities.
+
+Overall, contributing to template-typescript-node-package was a fantastic experience. Not only did I learn a lot about working on larger projects and using Git, but I was able to give back to the community and help improve an already-great open source project. I'm grateful for the opportunity and look forward to contributing to more projects in the future.
+
+Visit Josh's website at [https://joshuakgoldberg.com/](https://joshuakgoldberg.com/) and check out his book and other project. Or follow him on Twitter at [@JoshuaKGoldberg](https://twitter.com/JoshuaKGoldberg).
