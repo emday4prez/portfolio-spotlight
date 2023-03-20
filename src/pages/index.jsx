@@ -259,9 +259,9 @@ export default function Home({ articles }) {
             Software Engineer, Web Developer, and UX Designer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Emerson, a full stack software engineer based in Los Angeles. I
-            use React and other popular tools to build modern, accessible, and
-            responsive web applications.
+            I’m Emerson Day, a full stack software engineer based in Los
+            Angeles. I use TypeScript, React, Node.js, and other popular tools
+            to build modern, accessible, and responsive web applications.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
