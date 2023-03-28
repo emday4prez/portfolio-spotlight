@@ -62,15 +62,14 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Emerson Day. I live in Los Angeles, where I make websites.
+              I’m Emerson Day. I make websites.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I am a full-stack web developer based in Los Angeles. I love
-                building modern web applications using React, Node, and
-                TypeScript. I also have extensive experience with Next.js and
-                Tailwind, two popular frameworks in the web development
-                community.
+                I am a full-stack web developer and I love building modern web
+                applications using React, Node, and TypeScript. I also have
+                extensive experience with Next.js and Tailwind, two popular
+                frameworks in the web development community.
               </p>
               <p>
                 In addition to my technical skills, I have a certificate in
