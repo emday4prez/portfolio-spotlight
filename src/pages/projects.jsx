@@ -10,7 +10,7 @@ import logoWifi from '@/images/logos/icon-wifi.svg'
 import logoStore from '@/images/logos/icon-store.svg'
 import logoBank from '@/images/logos/icon-library.svg'
 import logoGithub from '@/images/logos/github.svg'
-import logoCalendar from '@images/logos/icon-calendar-add.svg'
+import logoCalendar from '../images/logos/icon-calendar-add.svg'
 
 const projects = [
   {
