@@ -10,6 +10,7 @@ import logoWifi from '@/images/logos/icon-wifi.svg'
 import logoStore from '@/images/logos/icon-store.svg'
 import logoBank from '@/images/logos/icon-library.svg'
 import logoGithub from '@/images/logos/github.svg'
+import logoCalendar from '@images/logos/icon-calendar-add.svg'
 
 const projects = [
   {
@@ -41,6 +42,16 @@ const projects = [
       label: 'restaurants-app',
     },
     logo: logoStore,
+  },
+  {
+    name: 'Full Stack To Do',
+    description:
+      'Taking to-do apps to the next level with authentication and PostgreSQL. Created with Next.js and Supabase.',
+    link: {
+      href: 'https://next-todo-inky.vercel.app/',
+      label: 'next-supabase-todo',
+    },
+    logo: logoCalendar,
   },
   {
     name: 'Playlist Generator',
