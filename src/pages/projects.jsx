@@ -43,16 +43,7 @@ const projects = [
     },
     logo: logoStore,
   },
-  {
-    name: 'Full Stack To Do',
-    description:
-      'Taking to-do apps to the next level with authentication and PostgreSQL. Created with Next.js and Supabase.',
-    link: {
-      href: 'https://next-todo-inky.vercel.app/',
-      label: 'next-supabase-todo',
-    },
-    logo: logoCalendar,
-  },
+
   {
     name: 'Playlist Generator',
     description:
@@ -91,6 +82,16 @@ const projects = [
       label: 'frontend-bank',
     },
     logo: logoBank,
+  },
+  {
+    name: 'Full Stack To Do List',
+    description:
+      'Taking to do apps to the next level with authentication and PostgreSQL. Created with Next.js and Supabase.',
+    link: {
+      href: 'https://next-todo-inky.vercel.app/',
+      label: 'next-supabase-todo',
+    },
+    logo: logoCalendar,
   },
 ]
 
