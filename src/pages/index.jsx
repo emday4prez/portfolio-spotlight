@@ -264,10 +264,11 @@ export default function Home({ articles }) {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com/emers0n"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
+              href="https://linkedin.com/in/emerson-day"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
             />
+
             <SocialLink
               href="https://instagram.com/emerson.day"
               aria-label="Follow on Instagram"
@@ -279,9 +280,9 @@ export default function Home({ articles }) {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/emerson-day"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
+              href="https://twitter.com/emers0n"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
             />
           </div>
         </div>
