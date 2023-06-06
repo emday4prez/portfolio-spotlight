@@ -15,7 +15,7 @@ import {
 import synchroArts from '@/images/logos/sa.jpeg'
 import logoLaptop from '@/images/logos/cpu.jpg'
 import logoHenson from '@/images/logos/henson.jpeg'
-import image1 from '@/images/photos/image-1.jpg'
+import image1 from '@/images/photos/image1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
