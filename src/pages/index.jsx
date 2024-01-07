@@ -144,6 +144,8 @@ function Resume() {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
+    },
+    {
       company: 'Upwork',
       title: 'Freelance Web Developer',
       logo: logoLaptop,
