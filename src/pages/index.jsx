@@ -15,10 +15,10 @@ import {
 import synchroArts from '@/images/logos/sa.jpeg'
 import logoLaptop from '@/images/logos/cpu.jpg'
 import logoHenson from '@/images/logos/henson.jpeg'
-import image1 from '@/images/photos/imageFood.jpg'
+import image1 from '@/images/photos/dante.jpeg'
 import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
+import image3 from '@/images/photos/image-4.jpg'
+import image4 from '@/images/photos/imageFood.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
@@ -136,14 +136,19 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Upwork',
-      title: 'Freelance Web Developer',
+      company: 'Government',
+      title: 'Programmer',
       logo: logoLaptop,
-      start: '2019',
+      start: '2023',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
+      company: 'Upwork',
+      title: 'Freelance Web Developer',
+      logo: logoLaptop,
+      start: '2019',
+      end: '2023',
     },
     {
       company: 'Synchro Arts',
@@ -259,8 +264,9 @@ export default function Home({ articles }) {
             Software Engineer, Full Stack Web Developer, and UX Designer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Emerson Day, I use C#, TypeScript, React, .NET, Node.js, Blazor, Java and other popular
-            tools to build modern, accessible, and responsive web applications.
+            I’m Emerson Day, I use C#, TypeScript, React, .NET, Node.js, Blazor,
+            Java and other popular tools to build modern, accessible, and
+            responsive web applications.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
